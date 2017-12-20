@@ -35,3 +35,6 @@ In your Heroku App settings, add a buildPack path as below:
 ```
 https://github.com/vapor/heroku-buildpack.git
 ```
+
+### Heroku App
+https://vapor-demo-web.herokuapp.com/
