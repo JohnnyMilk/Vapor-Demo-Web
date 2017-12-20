@@ -18,3 +18,20 @@
         <img src="http://img.shields.io/badge/swift-4-brightgreen.svg" alt="Swift 4">
     </a>
 </p>
+
+# For Heroku Setting...
+
+
+### Procfile
+Add a file named Procfile in your Vapor Project, and input content like below:
+
+```
+web: Run --env=production --workdir=./ --config:servers.default.port=$PORT
+```
+
+### BuildPack
+In your Heroku App settings, add a buildPack path as below:
+
+```
+https://github.com/vapor/heroku-buildpack.git
+```
